@@ -13,8 +13,8 @@ match operator:
         result = num1 * num2
         print(f"{num1} * {num2} = {result}")
     case "/":
-        result = num1 / num2
         if num1 > 0 and num2 > 0:
+            result = num1 / num2
             print(f"{num1} / {num2} = {result}")
         else:
             print("Cannot divide by zero.")
