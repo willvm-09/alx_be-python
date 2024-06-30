@@ -4,15 +4,17 @@ operator = input("Choose the operation (+, -, *, /):" )
 
 match operator:
     case "+":
-        print("The result is", num1 + num2.)
+        result = num1 + num2
+        print(f"{num1} + {num2} = {result}")
     case "-":
-        print("The result is", num1 - num2.)
+        result = num1 - num2
+        print(f"{num1} - {num2} = {result}")
     case "*":
-        print("The result is", num1 * num2.)
+        result = num1 * num2
+        print(f"{num1} * {num2} = {result}")
     case "/":
+        result = num1 / num2
         if num1 > 0 and num2 > 0:
-            print("The result is", num1 / num2.)
+            print(f"{num1} / {num2} = {result}")
         else:
             print("Cannot divide by zero.")
-    case _:
-        print ("Not Allowed.")
