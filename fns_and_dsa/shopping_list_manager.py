@@ -14,7 +14,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            new_item = input("Enter new item: ")
+            new_item = input("Enter item to add: ")
             shopping_list.append(new_item)
             pass
         elif choice == '2':
