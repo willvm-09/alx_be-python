@@ -10,6 +10,6 @@ def safe_divide(numerator, denominator):
     else: 
         print(f"The result of the division is {result}")
     finally:
-        print(f"Division execution complete.")
+        print("")
     
     
